@@ -11,6 +11,7 @@
   inputs.src-nimline-v0_1_5.ref   = "refs/tags/v0.1.5";
   inputs.src-nimline-v0_1_5.owner = "fragcolor-xyz";
   inputs.src-nimline-v0_1_5.repo  = "nimline";
+  inputs.src-nimline-v0_1_5.dir   = "";
   inputs.src-nimline-v0_1_5.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
