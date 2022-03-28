@@ -11,7 +11,6 @@
   inputs.src-nimline-master.ref   = "refs/heads/master";
   inputs.src-nimline-master.owner = "fragcolor-xyz";
   inputs.src-nimline-master.repo  = "nimline";
-  inputs.src-nimline-master.dir   = "";
   inputs.src-nimline-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
